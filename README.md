@@ -4,7 +4,7 @@ Use an ESP32 to read air quality from the Internet and activate a relay accordin
 Using AirNow API current as of September 2026  
 ### UPDATE  
 
-The AirNow API website is now reporting that zip code queries are going to be "retired in the fall of 2026." This sketch will no longer work if that is the case.  Please see the RPi-AQI repository until this can be updated.  You will simply need an updated URL, likely using "reporting area code" instead of zip code.  
+The AirNow API website is now reporting that zip code queries are going to be "retired in the fall of 2026." This sketch will no longer work if that is the case.  Please see the [RPi-AQI repository](https://github.com/pettingers-org/RPi-AQI) until this can be updated.  You will simply need an updated URL, likely using "reporting area code" instead of zip code.  
   
   *Details*  
   
