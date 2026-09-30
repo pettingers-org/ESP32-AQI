@@ -2,7 +2,10 @@
 Use an ESP32 to read air quality from the Internet and activate a relay accordingly  
 
 Using AirNow API current as of September 2026  
+### UPDATE  
 
+The AirNow API website is now reporting that zip code queries are going to be "retired in the fall of 2026." This sketch will no longer work if that is the case.  Please see the RPi-AQI repository until this can be updated.  You will simply need an updated URL, likely using "reporting area code" instead of zip code.  
+  
   *Details*  
   
 ESP32-AQI uses an ESP32 microcontroller to poll air quality index (AQI) data from the US Government website https://www.airnow.gov . When the AQI number is above a set point (bad air quality) the ESP32 will activate a relay via GPIO pin.  When the air quality improves, (AQI falls below another set point) the relay is switched off.  AQI data is retrieved for a specific location set via postal zip code.
